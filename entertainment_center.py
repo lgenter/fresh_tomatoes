@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import media
 
-#create movie objects; these are instances of the class Movie()
+# create movie objects; these are instances of the class Movie()
 castle_in_the_sky = media.Movie("Castle In the Sky",
                                 "Whimsical, artistic brilliance from the master of animation, Hayao Miyazaki",
                                 "https://upload.wikimedia.org/wikipedia/en/4/40/Castle_in_the_Sky_%28Movie_Poster%29.jpg",
@@ -32,7 +32,7 @@ secondhand_lions = media.Movie("Secondhand Lions",
                                "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/SecondhandLions.jpg/220px-SecondhandLions.jpg",
                                "https://www.youtube.com/watch?v=Ebkrm7u44UI")
 
-#create object containing the above instances of Movie(), to be used in fresh_tomatoes.py to construct the visual elements of the website
+# create object containing the above instances of Movie(), to be used in fresh_tomatoes.py to construct the visual elements of the website
 movies = [castle_in_the_sky, passion_of_the_christ, dunkirk, return_of_the_king, equilibrium, secondhand_lions]
-#call the function from fresh_tomatoes.py that opens the webpage - execute code from this file
+# call the function from fresh_tomatoes.py that opens the webpage - execute code from this file
 fresh_tomatoes.open_movies_page(movies)
