@@ -13,5 +13,4 @@ class Movie():
 
     #create object that uses the open() function to play the movie trailer
     def show_trailer(self):
-        
         webbrowser.open(self.trailer_youtube_url)
